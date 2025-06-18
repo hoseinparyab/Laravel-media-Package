@@ -1,20 +1,48 @@
 {
-    "name": "theparyab/laravel-media",
-    "description": "My first Laravel package for uploading files",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Theparyab\\LaravelMedia\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "theParyab",
-            "email": "hoseinparyab1@gmail.com",
-            "Role" : "Owner",
-            "homepage": "https://github.com/hoseinparyab"
-        }
-    ],
-    "require": {}
+  "name": "theparyab/laravel-media",
+  "description": "My first Laravel package for uploading files",
+  "keywords": [
+    "laravel",
+    "php",
+    "Composer",
+    "laravel-media",
+    "theparyab",
+    "MIT",
+    "laravel-media-uploader"
+  ],
+  "minimum-stability": "dev",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "theParyab",
+      "email": "hoseinparyab1@gmail.com",
+      "role": "owner",
+      "homepage": "https://github.com/hoseinparyab"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Theparyab\\LaravelMedia\\LaravelMediaServiceProvider"
+      ]
+    }
+  },
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Theparyab\\LaravelMedia\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Theparyab\\LaravelMedia\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
 }
