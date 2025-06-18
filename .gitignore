@@ -3,4 +3,4 @@ composer.lock
 /.idea
 .phpunit.result.cache
 todos.txt
-/coverage 
+/coverage
