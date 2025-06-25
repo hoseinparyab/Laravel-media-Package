@@ -31,7 +31,11 @@
       ]
     }
   },
-  "require": {},
+  "require": {
+    "php": "8.4",
+    "laravel/framework": "^9.0"
+
+  },
   "autoload": {
     "psr-4": {
       "Theparyab\\LaravelMedia\\": "src/"
