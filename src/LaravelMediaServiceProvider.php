@@ -2,7 +2,7 @@
 
 namespace Theparyab\LaravelMedia;
 
-class LaravelMediaServiceProvider extends  Serv
+class LaravelMediaServiceProvider extends ServiceProvider
 {
 
 }
