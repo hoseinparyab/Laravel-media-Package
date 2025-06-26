@@ -8,7 +8,7 @@ class Media extends Model
 {
     /**
      * cast columns
-     * 
+     *
      * @var string[]
      */
  protected $casts = ['files' => 'json'];
